@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="edtNama" type="id" />
+    <item name="edtNim" type="id" />
+    <item name="edtProdi" type="id" />
+    <item name="edtAlamat" type="id" />
+    <item name="edtAgama" type="id" />
+</resources>

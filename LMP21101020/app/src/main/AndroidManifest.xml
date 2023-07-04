@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LMP21101020"
+        tools:targetApi="31">
+        <activity
+            android:name=".latihan14aEdit"
+            android:exported="false" />
+        <activity
+            android:name=".latihan13a"
+            android:exported="false" />
+        <activity
+            android:name=".latihan10c"
+            android:exported="true" />
+        <activity
+            android:name=".latihan10b"
+            android:exported="true" />
+        <activity
+            android:name=".latihan10a"
+            android:exported="true" />
+        <activity
+            android:name=".latihan5a1"
+            android:exported="true" />
+        <activity
+            android:name=".Latihan4a"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6j"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6h"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6g"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6f"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6e"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6d"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6c"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6b"
+            android:exported="true" />
+        <activity
+            android:name=".latihan6a"
+            android:exported="true" />
+        <activity
+            android:name=".latihan5a"
+            android:exported="true" />
+        <activity
+            android:name=".frontend"
+            android:exported="true" />
+        <activity
+            android:name=".latihan9A"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LMP21101020"
+            android:exported="true" />
+    </application>
+
+</manifest>

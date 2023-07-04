@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".latihan10c">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#C50B0B"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/informasi_mahasiswa"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:orientation="vertical"
+        android:padding="80sp">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="234dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todoo"
+            app:srcCompat="@drawable/artap"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:text="Biodata Diri"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama : I Made Arta Pradana"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nim :  21101020"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prodi : TI - MDI"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat : Badung"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agama : Hindu"
+            android:textAlignment="center"
+            android:textColor="#121212"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="202dp"
+        android:layout_height="69dp"
+        android:layout_margin="8sp"
+        android:text="Aplikasi ini merupakan,aplikasi database Mahasiswa INSTIKI yang dibuat Mahasiswa sebagai tugas praktikum di kelas."
+        android:textAlignment="viewStart"
+        android:textColor="#121212"
+        android:textStyle="italic" />
+
+</LinearLayout>
